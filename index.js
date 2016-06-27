@@ -32,5 +32,7 @@ module.exports = function(s, cf){
 
       return cf.lowerCase ? url.toLowerCase() : url;
 
+   }else{
+      return s;
    }
 };
