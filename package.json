@@ -1,0 +1,24 @@
+{
+  "name": "urlifyjs",
+  "version": "0.0.1",
+  "description": "A small module that will help you with URL validation and turning strings into URLs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielkov/urlifyjs.git"
+  },
+  "keywords": [
+    "url",
+    "string",
+    "simple"
+  ],
+  "author": "Daniel Kovacs <kovacsemod@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielkov/urlifyjs/issues"
+  },
+  "homepage": "https://github.com/danielkov/urlifyjs#readme"
+}
