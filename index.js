@@ -15,7 +15,7 @@ module.exports = function(s, cf){
       var rU = /([ÚúÙùÜü])/g;
       var rZ = /([Žž])/g;
       var rWS = /\s/g;
-      var accept = new RegExp('[^a-zA-Z0-9' + (cf.accept || '-') + ']');
+      var accept = new RegExp('[^a-zA-Z0-9' + (cf.accept ? cf.accept + cf.whiteSpace : '-' + cf.whiteSpace) + ']', 'g');
 
       var url = s.replace(rA, 'a')
          .replace(rC, 'c')
