@@ -11,7 +11,7 @@ var urlify = require('urlifyjs');
 
 var string = 'Welcome, Dr# Größ!';
 
-// url === 'welcome-dr-gross'
+// url === 'Welcome-Dr-Gross'
 var url = urlify(string);
 ```
 ## Configurations
@@ -22,7 +22,7 @@ var urlify = require('urlifyjs');
 var string = 'Welcome, Dr# Größ!';
 
 var config = {
-   accept: '#-_',
+   accept: '#',
    whiteSpace: '_',
    special: '#',
    sz: true,
